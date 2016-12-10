@@ -2,6 +2,7 @@
 
 ## Requirements
 - Basic knowledge of Panda3D and Python
+- Basic knowledge how to use a command shell
 - Windows 7 or higher
 
 
@@ -44,6 +45,12 @@ First, download the latest buildbot build from <a href="http://www.panda3d.org/d
 Run the installer, which will ask you where to install Panda3D. You can install it at any location, it does not matter for this tutorial.
 Also, leave all features checked in the installer.
 
+After you installed Panda3D, we have to make sure `ppython` is on your path. Press <kbd>Windows</kbd>+<kbd>R</kbd> and type cmd.
+A command shell will open, enter `ppython`. If a python interpreter opens, you are done and can close the shell.
+
+If you get `ppython is not a recognized internal command`, head over to <a href="https://www.panda3d.org/manual/index.php/Installing_Panda3D_in_Windows">Installing Panda3D in Windows</a>
+which describes how to fix this.
+
 
 ## Installing latest graphics drivers
 
@@ -63,6 +70,15 @@ Extract the folder to your workspace, for the following tutorials I will use `C:
 
 In the future, I will refer to `workspace` as your workspace folder, e.g. `C:/MyProject`, and refer to
 `render pipeline folder` or `pipeline folder` as the root folder of the render pipeline, e.g. `C:/MyProject/render_pipeline` 
+
+Now that you downloaded the render pipeline, we have to build and setup it. Open a command shell, and navigate to the 
+render pipeline folder, e.g. `cd /D C:/MyProject/render_pipeline/`. 
+
+Now, type `ppython setup.py`. The render pipeline setup should start. If everything went well, you can head over to the next tutorial.
+If you encountered any issues, please use the troubleshooting page which the setup will offer to open after a failed step.
+
+In case your issue is not listed, or the setup does not offer to show a troubleshooting page, please open a new issue at the
+<a href="https://github.com/tobspr/RenderPipeline/issues">Render Pipeline issues</a>.
 
 ---
 
