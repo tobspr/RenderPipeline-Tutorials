@@ -74,7 +74,12 @@ In the future, I will refer to `workspace` as your workspace folder, e.g. `C:/My
 Now that you downloaded the render pipeline, we have to build and setup it. Open a command shell, and navigate to the 
 render pipeline folder, e.g. `cd /D C:/MyProject/render_pipeline/`. 
 
-Now, type `ppython setup.py`. The render pipeline setup should start. If everything went well, you can head over to the next tutorial.
+Now, type `ppython setup.py`. The render pipeline setup should start:
+<img src="rp_setup.png" alt="Render Pipeline Setup" />
+
+The setup will ask to download the samples, this is optional and not required for the following tutorials.
+
+If everything went well, you can head over to the next tutorial.
 If you encountered any issues, please use the troubleshooting page which the setup will offer to open after a failed step.
 
 In case your issue is not listed, or the setup does not offer to show a troubleshooting page, please open a new issue at the
