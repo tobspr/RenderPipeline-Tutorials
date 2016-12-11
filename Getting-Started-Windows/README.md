@@ -1,13 +1,13 @@
-# Getting started on windows
+# Getting started on Windows
 
 ## Requirements
 - Basic knowledge of Panda3D and Python
-- Basic knowledge how to use a command shell
+- Basic knowledge of how to use a command shell
 - Windows 7 or higher
 
-
-This is the first tutorial of the render pipeline tutorial series. We will cover how to
-setup your Panda3D installation and the Render Pipeline.
+## Overview
+This is the first tutorial of the RenderPipeline tutorial series. We will cover how to
+setup your Panda3D installation and the RenderPipeline.
 This is the base for all upcoming tutorials, so make sure you follow it carful!
 
 To be able to do so, we need to install some tools:
@@ -15,7 +15,6 @@ To be able to do so, we need to install some tools:
 ## Installing the compilers
 
 First of all, you will have to install the Windows 7.1 SDK to get the required compilers *:
-
 
 1. Uninstall *Microsoft Visual C++ 2010 Redistributable* if present
    (all versions and architectures). If present, it can cause an error on Windows SDK 7.1 installation. 
@@ -29,24 +28,24 @@ First of all, you will have to install the Windows 7.1 SDK to get the required c
 
 ## Installing CMake
 
-The render pipeline also requires CMake, you can download it from <a href="https://cmake.org/download/" target="_blank">here</a> (Choose *Latest Stable* > *Windows win64-x64 Installer*):
-
-<img src="cmake_download.png" alt="CMake Download Page" />
+The RenderPipeline also requires CMake.
+You can download it from <a href="https://cmake.org/download/" target="_blank">here</a> (Choose *Latest Stable* > *Windows win64-x64 Installer*):
 
 
 ## Installing Panda3D
 
-Now that we have the all required tools installed installed, we can grab a pre-compiled development version of Panda3D.
+Now that we have the all required tools installed installed, we can grab a pre-compiled, development version of Panda3D.
 First, download the latest buildbot build from <a href="http://www.panda3d.org/download.php?platform=windows&version=devel&sdk" target="_blank">here</a>
 (I recommend using a 64bit build ending with `-x64`):
 
 <img src="panda3d_download.png" alt="Panda3D Download Page" />
 
-Run the installer, which will ask you where to install Panda3D. You can install it at any location, it does not matter for this tutorial.
+Next, run the installer, which will ask you where to install Panda3D.
+You can install it at any location, which does not matter for this tutorial.
 Also, leave all features checked in the installer.
 
-After you installed Panda3D, we have to make sure `ppython` is on your path. Press <kbd>Windows</kbd>+<kbd>R</kbd> and type cmd.
-A command shell will open, enter `ppython`. If a python interpreter opens, you are done and can close the shell.
+After you have installed Panda3D, we have to make sure `ppython` is on your path. Press <kbd>Windows</kbd>+<kbd>R</kbd> and type `cmd`.
+A command shell will open, enter `ppython`. If a python interpreter opens, you are done and can close- the shell.
 
 If you get `ppython is not a recognized internal command`, head over to <a href="https://www.panda3d.org/manual/index.php/Installing_Panda3D_in_Windows">Installing Panda3D in Windows</a>
 which describes how to fix this.
@@ -54,36 +53,36 @@ which describes how to fix this.
 
 ## Installing latest graphics drivers
 
-Before we can install the render pipeline, we have to make sure that the graphics drivers are up to date.
+Before we can install the RenderPipeline, we have to make sure that the graphics drivers are up to date.
 You can get the latest NVIDIA drivers from <a href="http://www.nvidia.com/download/index.aspx" target="_blank">here</a>, and for
 AMD cards you can find them <a href="http://support.amd.com/de-de/download" target="_blank">here</a>
 
 
-## Installing the Render Pipeline
+## Installing the RenderPipeline
 
-Since all requirements are satisfied now, we can start to install the render pipeline.
-First, download the <a href="http://github.com/tobspr/RenderPipeline" target="_blank">Render Pipeline</a>. You can so by using the *Download ZIP* button:
+Since all other requirements are satisfied now, we can start to install the RenderPipeline.
+First, download the <a href="http://github.com/tobspr/RenderPipeline" target="_blank">RenderPipeline</a>. You can do so by using the *Download ZIP* button:
 
-<img src="rp_download.png" alt="Render Pipeline Download" />
+<img src="rp_download.png" alt="RenderPipeline Download" />
 
-Extract the folder to your workspace, for the following tutorials I will use `C:/MyProject/render_pipeline/`, but it literally doesn't matter.
+Extract the folder to your workspace. For the following tutorials I will use `C:/MyProject/render_pipeline/`, but it doesn't matter.
 
 In the future, I will refer to `workspace` as your workspace folder, e.g. `C:/MyProject`, and refer to
-`render pipeline folder` or `pipeline folder` as the root folder of the render pipeline, e.g. `C:/MyProject/render_pipeline` 
+`RenderPipeline folder` or `pipeline folder` as the root folder of the RenderPipeline, e.g. `C:/MyProject/render_pipeline`.
 
-Now that you downloaded the render pipeline, we have to build and setup it. Open a command shell, and navigate to the 
-render pipeline folder, e.g. `cd /D C:/MyProject/render_pipeline/`. 
+Now that you downloaded the RenderPipeline, we have to build and set it up. Open a command shell, and navigate to the 
+RenderPipeline folder, e.g. `cd /D C:/MyProject/render_pipeline/`. 
 
-Now, type `ppython setup.py`. The render pipeline setup should start:
-<img src="rp_setup.png" alt="Render Pipeline Setup" />
+Now, type `ppython setup.py`. The RenderPipeline setup should start:
+<img src="rp_setup.png" alt="RenderPipeline Setup" />
 
-The setup will ask to download the samples, this is optional and not required for the following tutorials.
+The setup will ask to download the samples: this is optional and not required for the following tutorials.
 
 If everything went well, you can head over to the next tutorial.
 If you encountered any issues, please use the troubleshooting page which the setup will offer to open after a failed step.
 
 In case your issue is not listed, or the setup does not offer to show a troubleshooting page, please open a new issue at the
-<a href="https://github.com/tobspr/RenderPipeline/issues">Render Pipeline issues</a>.
+<a href="https://github.com/tobspr/RenderPipeline/issues">RenderPipeline issues</a>.
 
 ---
 
