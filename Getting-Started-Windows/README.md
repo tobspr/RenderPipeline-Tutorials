@@ -45,7 +45,7 @@ You can install it at any location, which does not matter for this tutorial.
 Also, leave all features checked in the installer.
 
 After you have installed Panda3D, we have to make sure `ppython` is on your path. Press <kbd>Windows</kbd>+<kbd>R</kbd> and type `cmd`.
-A command shell will open, enter `ppython`. If a python interpreter opens, you are done and can close- the shell.
+A command shell will open, enter `ppython`. If a python interpreter opens, you are done and can close the shell.
 
 If you get `ppython is not a recognized internal command`, head over to <a href="https://www.panda3d.org/manual/index.php/Installing_Panda3D_in_Windows">Installing Panda3D in Windows</a>
 which describes how to fix this.
