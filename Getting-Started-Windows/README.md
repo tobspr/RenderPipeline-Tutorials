@@ -34,7 +34,7 @@ You can download it from <a href="https://cmake.org/download/" target="_blank">h
 
 ## Installing Panda3D
 
-Now that we have the all required tools installed installed, we can grab a pre-compiled, development version of Panda3D.
+Now that we have the all required tools installed, we can grab a pre-compiled, development version of Panda3D.
 First, download the latest buildbot build from <a href="http://www.panda3d.org/download.php?platform=windows&version=devel&sdk" target="_blank">here</a>
 (I recommend using a 64bit build ending with `-x64`):
 
