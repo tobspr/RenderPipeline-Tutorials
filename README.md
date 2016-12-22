@@ -12,18 +12,16 @@ For detailed information, please head over to the
 
 The tutorials are ordered, and it usually makes sense to work through them sequentially.
 
-# Easy Tutorials
+# Tutorials
 
 1. <a href="Getting-Started-Windows/README.md">Getting Started (Windows)</a>
 2. Getting Started (Linux)
-3. <a href="Basic-Example">Creating a simple Application using the RP</a>
-4. <a href="Creating-A-Scene">Creating a scene in blender with PBR Materials</a>
-5. Creating a new project and importing your scene
-6. Adding Lights programatically
+3. <a href="Basic-Example">Creating a simple Application</a>
+4. <a href="Creating-A-Scene">Creating a Scene in Blender</a>
+5. Introduction into Physically Based Rendering (PBR)
+6. Texturing your scene
+7. Adding Lights programatically
 
-
-# Medium Tutorials
- 
 
 # Advanced Stuff
 
