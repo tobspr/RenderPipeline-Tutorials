@@ -3,7 +3,7 @@
 These are tutorials for the <a href="http://github.com/tobspr/RenderPipeline">RenderPipeline</a> (RP)
 that complement the documentation.
 
-For all tutorials, a basic knowledge of Panda3D and Python is required. Futher knowledge
+For all tutorials, a basic knowledge of Panda3D and Python is required. Further knowledge
 of graphics programming may help, but is certainly not required.
 
 In order not to break the scope of a given tutorial, some details may be omitted.
