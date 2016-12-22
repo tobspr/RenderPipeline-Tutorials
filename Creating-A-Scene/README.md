@@ -63,5 +63,36 @@ the options, and can just press `Export to Panda3D BAM` in the top right corner:
 <img src="export.png" />  
 
 ### Loading the scene
+*(You can find the full source of this example <a href="main.py">here</a>.)*
+
+To load or model, we have to add the following lines to our <a href="../Basic-Example/README.md">Basic Example</a>:
+
+    model = self.loader.load_model("scene.bam")
+    model.reparent_to(self.render)
+    self.render_pipeline.prepare_scene(model)
+
+Besides of the last line, this should be nothing new for you. The `prepare_scene`
+method has to get called after you loaded a model, and it ensures the scene is properly
+setup. In case you are interested what it does exactly, checkout the <a href="FIXME">Render Pipeline API</a>.
+
+To make our camera point into the right direction, we also add the following:
+
+    base.disable_mouse()
+    base.camera.set_pos(-0.9, -24.8, 14.6)
+    base.camera.look_at(model)
+    base.camLens.set_fov(45)
+
+If we now start our sample, we will see something similar to this (notice it may vary
+depending on enabled plugins and render pipeline versions):
+
+<img src="exported.png" alt="Exported Scene Result" />
+
+
+If you think this looks boring, no worry: we will improve on this scene in the next tutorial, in which we will cover texturing.
+
+
+
+
+
 
 
