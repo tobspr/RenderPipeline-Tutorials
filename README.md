@@ -20,7 +20,7 @@ The tutorials are ordered, and it usually makes sense to work through them seque
 4. <a href="Creating-A-Scene/README.md">Creating a Scene in Blender</a>
 5. Introduction into Physically Based Rendering (PBR)
 6. Texturing your scene
-7. Adding Lights programatically
+7. Adding Lights programmatically
 
 
 # Advanced Stuff

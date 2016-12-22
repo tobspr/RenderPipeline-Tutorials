@@ -8,7 +8,7 @@
 ## Overview
 This is the first tutorial of the RenderPipeline tutorial series. We will cover how to
 setup your Panda3D installation and the RenderPipeline.
-This is the base for all upcoming tutorials, so make sure you follow it carful!
+This is the base for all upcoming tutorials, so make sure you follow it carefully!
 
 To be able to do so, we need to install some tools:
 

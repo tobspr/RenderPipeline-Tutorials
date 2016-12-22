@@ -9,7 +9,7 @@ In this tutorial we will cover how to properly create models and lights in blend
 so they can be used in the render pipeline. We will also cover how to install
 the bam exporter.
 
-However, this is not a blender tutorial. If you are not familar with blender,
+However, this is not a blender tutorial. If you are not familiar with blender,
 I recommend checking out the <a href="https://www.blender.org/support/tutorials/">Blender Tutorials</a> first.
 
 You can find the scene we will model in the this tutorial <a href="scene.blend">here</a>.
@@ -38,7 +38,7 @@ If any issues occur, please fill out an issue <a href="https://github.com/tobspr
 ## Creating your scene
 
 I will not focus in depth about how to model a scene, and we will really keep it simple
-here. Assuming we already modelled this geometry (notice I deleted the standard light and camera):
+here. Assuming we already modeled this geometry (notice I deleted the standard light and camera):
 
 <img src="scene_part1.png" />
 
@@ -89,10 +89,4 @@ depending on enabled plugins and render pipeline versions):
 
 
 If you think this looks boring, no worry: we will improve on this scene in the next tutorial, in which we will cover texturing.
-
-
-
-
-
-
 

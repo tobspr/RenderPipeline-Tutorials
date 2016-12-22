@@ -6,7 +6,7 @@
 - A text editor / python ide of your choice
 
 In this tutorial we will cover how to create your first application using the render pipeline.
-This requires that you sucessfully installed the render pipeline as described in the previous tutorials.
+This requires that you successfully installed the render pipeline as described in the previous tutorials.
 
 ## Creating the application
 
@@ -30,7 +30,7 @@ class Application(ShowBase):
     def __init__(self):
 ```
 
-Since the render pipeline is stored in a subfolder (We called it `render_pipeline` in the previous tutorial),
+Since the render pipeline is stored in a sub-folder (We called it `render_pipeline` in the previous tutorial),
 we have to tell the python interpreter where to find it (Thats where we needed the `sys` import for):
 
 ```python
@@ -66,7 +66,7 @@ Thats it! We can now run the application (You can find the full source code <a h
 ## Running the application
 
 You can now open a command shell and navigate to your workspace folder. Type `ppython main.py`, and a window
-similar to this shold open (The actual content may vary, depending on the render pipeline version):
+similar to this should open (The actual content may vary, depending on the render pipeline version):
 
 <img src="screenshot.png" alt="First Render Pipeline App" />
 
