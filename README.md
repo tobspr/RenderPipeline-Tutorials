@@ -16,8 +16,8 @@ The tutorials are ordered, and it usually makes sense to work through them seque
 
 1. <a href="Getting-Started-Windows/README.md">Getting Started (Windows)</a>
 2. Getting Started (Linux)
-3. <a href="Basic-Example">Creating a simple Application</a>
-4. <a href="Creating-A-Scene">Creating a Scene in Blender</a>
+3. <a href="Basic-Example/README.md">Creating a simple Application</a>
+4. <a href="Creating-A-Scene/README.md">Creating a Scene in Blender</a>
 5. Introduction into Physically Based Rendering (PBR)
 6. Texturing your scene
 7. Adding Lights programatically
